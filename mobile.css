@@ -1,0 +1,24 @@
+/* header section responsive */
+
+.option-button {
+    flex-direction: column;
+}
+.banner-title {
+    font-size: 30px;
+    margin-top: 190px;
+}
+
+.banner-explore-your-travel {
+    max-width: 90%;
+    margin: 15px auto;
+    
+}
+.banner-text {
+ padding-left: 15px;
+    color: #FFF;
+}
+.banner-explore-your-travel {
+background-position: center;
+}
+
+/* end  */
