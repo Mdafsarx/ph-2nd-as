@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@600;700;800;900&display=swap');
+
+/* shared section */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root{
+
+    --span-orange:#FF5400;
+
+}
+
+
+.span-orange{
+    color: var(--span-orange);
+}
+
+
+
+
+
+
+/* shared section end */
+
+
+/* header section start */
+
+
+/* nav section in header */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.nav-h2{
+    color: #131318;
+font-size: 30px;
+display: flex;
+align-items: center;
+gap: 15px;
+}
+nav > ul{
+    display: flex;
+    gap: 30px;
+}
+nav > ul > li{
+    list-style: none;
+}
+nav > ul  a{
+text-decoration: none;
+color: #131318;
+font-size: 18px;
+
+}
+/* nav section done */
+
+/* banner section start */
+
+.banner-explore-your-travel{
+max-width: calc(100% - 22%);
+margin: 20px auto;
+
+}
+.banner-explore-your-travel{
+background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+height: 100vh;
+width: auto;
+background-repeat: no-repeat;
+}
+
+.background-linear-gradient{
+border-radius: 5px;
+background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+height: 50vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
