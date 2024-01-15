@@ -66,12 +66,12 @@ font-size: 18px;
 
 .banner-explore-your-travel{
 max-width: calc(100% - 22%);
-margin: 20px auto;
+margin: 25px auto;
 
 }
 .banner-explore-your-travel{
 background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
-height: 100vh;
+height: 80vh;
 width: auto;
 background-repeat: no-repeat;
 }
@@ -128,7 +128,7 @@ margin-top: 15px;
     border-radius: 8px;
     outline: none;
 }
-.option-button button{
+.option-button button,.tours-button{
     padding: 8px 30px 8px 20px;
     border-radius: 8px;
     border: none;
@@ -138,8 +138,19 @@ margin-top: 15px;
     
 
 }
+/* main section start */
+main{
+    max-width: calc(100% - 22%);
+margin: 0px auto;
+}
+/* tours section */
 
 
+ .tours{
+    display: flex;
+    border: 3px solid;
+
+ }
 
 
 
