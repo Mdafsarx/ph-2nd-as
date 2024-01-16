@@ -359,7 +359,7 @@ backdrop-filter: blur(2.5px);
 max-width: 45%;
 padding: 4%;
 line-height: 1.9em;
-margin: 40px 40px 0px auto;
+margin: 40px 100px 0px auto;
 position: relative;
 top: 110px;
 }
@@ -446,7 +446,7 @@ position: relative;
     padding: 15px;
     position: absolute;
     bottom: 10%;
-    left: 70%;
+    left: 68%;
     transform: rotate(-45deg) translateX(49px) translateY(33px);
 }
 
