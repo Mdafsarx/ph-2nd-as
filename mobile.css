@@ -88,7 +88,7 @@ main {
 }
 
 .news-letter-content {
-    padding: 5% 10% 5% 5%;
+    padding: 5% 10% 5% 10%;
     max-width: 100%;
 }
 .Subscribe {
@@ -115,4 +115,118 @@ main {
 }
 h3 {
     font-size: 15px;
+}
+
+/* footer section */
+
+.footer {
+    padding: 0px;
+}
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* so sad its can't work */
+/* nav bars */
+nav{
+    padding: 0px;
+    
+}
+ul{
+    display: none;
+}
+nav > ul {
+    display: block;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.nav-h2 {
+    font-size: 19px;
+}
+.bars{
+    display: block;
+    position: relative;
+    left: 60px;
+}
+nav ul a{
+    display: block;
+    font-size: 10px;
+    display: none;
+}
+ul {
+    position:relative;
+    right: 100px;
+    display: none;
 }

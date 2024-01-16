@@ -79,7 +79,9 @@ nav > ul  a{
 text-decoration: none;
 color: #131318;
 font-size: 18px;
-
+}
+.bars{
+    display: none;
 }
 /* nav section done */
 
@@ -337,3 +339,29 @@ padding: 1px;
     transform: rotate(-45deg) translateX(49px) translateY(33px);
 }
 
+/* footer section */
+
+.footer{
+    /* max-width: calc(100% - 22%); */
+    /* margin: 5% auto 0% auto; */
+    margin-top: 7%;
+    padding: 100px 200px 100px 200px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+
+}
+.footer-img{
+    padding-left: 2.4%;
+    padding-bottom: 2%;
+}
+.footer-h2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+
+}
+.footer-h2,.footer-p{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
