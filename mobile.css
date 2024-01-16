@@ -79,7 +79,16 @@ main {
 .card {
     padding: 10%;
 }
-
+/* mountain section */
+.mountain-container {
+    flex-direction: column;
+}
+.mountain-content {
+    padding: 0px;
+    line-height: normal;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
 
 /* news letter section */
 
@@ -105,12 +114,15 @@ main {
     height: 100%;
     margin-left: 2%;
 }
-
+.Subscribe > span {
+    padding: 1px;
+    margin-left: 143%;
+}
 
 .travel {
     max-width: 55%;
     bottom: 11.5%;
-    left: 50%;
+    left: 47%;
     transform: rotate(-45deg) translateX(49px) translateY(33px);
 }
 h3 {
