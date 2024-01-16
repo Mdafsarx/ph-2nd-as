@@ -217,6 +217,7 @@ border-radius: 3%;
  .img-1{ 
     grid-column: 1/span 6;
     grid-row:1/span 1 ;
+    position: relative;
     
 }
 
@@ -224,28 +225,115 @@ border-radius: 3%;
 .img-2{
     grid-column: 7/span 6;
     grid-row:1/span 1 ;
-    
+    position: relative;
+
 }
 .img-3{
     grid-column: 1/span 4;
     grid-row:2/span 1 ;
+    position: relative;
+
 }
 .img-4{
     grid-column:5/span 5;
     grid-row:2/span 1 ;
+    position: relative;
+
 }
 .img-5{
     grid-column: 10/span 3;
     grid-row:2/span 1 ;
+    position: relative;
+
 }
 .img-6{
     grid-column: 1/span 5;
     grid-row:3/span 1 ;
+    position: relative;
+
 }
 .img-7{
     grid-column: 6/span 7;
     grid-row:3/span 1 ;
+    position: relative;
+
 }
+
+.img-a{
+    position: absolute;
+    bottom: 50%;
+    color: white;
+    left: 38%;
+}
+.img-b{
+    position: absolute;
+color: white;
+bottom: 52%;
+left: 40%;
+}
+.img-c{
+    position: absolute;
+    color: white;
+bottom: 49%;
+left: 37%;
+}
+.img-d{
+    position: absolute;
+    color: white;
+bottom: 52%;
+left: 34%;
+}
+.img-e{
+    position: absolute;
+    color: white;
+bottom: 52%;
+left: 31%;
+}
+.img-f{
+
+    position: absolute;
+    color: white;
+bottom: 50%;
+left: 36%;
+}
+.img-g{
+
+    position: absolute;
+    bottom: 50%;
+    left: 39%;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* grid-section end */
 .card-container{
