@@ -22,14 +22,30 @@
 .center-title{
     text-align: center;
     margin-top: 8%;
+    max-width: 45%;
+    margin-left: 30%;
 }
 
 p{
     color: rgba(19, 19, 24, 0.70);;
 }
+.option-button > button ,.tours-button{
+    padding: 8px 30px 8px 20px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background-color: var(--span-orange);
+    color: #FFF;}
 
 
+.common-h2{
+font-size: 2.5em;
 
+
+}
+h3{
+    font-size: 1.6em;
+}
 /* shared section end */
 
 
@@ -133,16 +149,10 @@ margin-top: 15px;
     border-radius: 8px;
     outline: none;
 }
-.option-button button,.tours-button{
-    padding: 8px 30px 8px 20px;
-    border-radius: 8px;
-    border: none;
-    outline: none;
-    background-color: var(--span-orange);
-    color: #FFF;
+
     
 
-}
+
 /* main section start */
 main{
     max-width: calc(100% - 22%);
@@ -168,7 +178,7 @@ object-fit: cover;
 border-radius: 3%;
 
 }
-.tours-content-title,#p,li,button{
+.tours-content-title,#p,li{
     padding-bottom: 6%;
 }
 .tours-button{
@@ -236,13 +246,71 @@ border-radius: 3%;
 }
 
 /* grid-section end */
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4%;
+}
+
+.card{
+    flex-basis:48%;
+    padding: 4% 4% 3% 1%;
+    margin-top: 3%;
+}
 
 
+.hotel,.summer{
+    border-radius: 18px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+}
+.location{
+    border-radius: 18px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+}
+
+/* news letter section */
+
+/* news letter  section1 */
+
+.news-letter-content{
+    border-radius: 16px;
+border: 1px solid #FF5400;
+text-align: left;
+max-width: 40%;
+padding: 4% 1% 4% 3.5%;
+
+}
 
 
+.input-name > input[type="text"],input[type="email"]{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 10px 49.5% 8px 3px;
+    border: none;
+    outline: none;
+    margin-bottom: 3%;
+    margin-top: 2%;
 
-
-
+}
+.Subscribe{
+    border-radius: 8px;
+    padding: 10px 70% 8px 4px;
+    border: none;
+    outline: none;
+    background-color: var(--span-orange);
+    color: #FFF;
+    font-size: 17px;
+    text-align: center;
+}
+.Subscribe > span{
+padding: 1px;   
+ margin-left: 170%;
+}
+/* ////// */
+/* news letter img section */
 
 
 
