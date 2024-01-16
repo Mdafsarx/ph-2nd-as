@@ -230,3 +230,16 @@ ul {
     right: 100px;
     display: none;
 }
+.discount-background1,.discount-background2,.discount-background3{
+ 
+    background-size: cover;
+    background-position: center;
+}
+
+.discount-card {
+
+max-width: 100%;
+top: 200px;
+left: 20px;
+
+}
