@@ -92,7 +92,7 @@ main {
     max-width: 100%;
 }
 .Subscribe {
-    padding: 10px 78% 8px 4px;
+    padding: 10px 76% 8px 4px;
 }
 
 .news-letter-img {
@@ -110,7 +110,7 @@ main {
 .travel {
     max-width: 55%;
     bottom: 11.5%;
-    left: 45%;
+    left: 50%;
     transform: rotate(-45deg) translateX(49px) translateY(33px);
 }
 h3 {

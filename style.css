@@ -284,7 +284,7 @@ background: rgba(41, 206, 246, 0.05);
 border: 1px solid #FF5400;
 text-align: left;
 max-width: 40%;
-padding: 4% 2% 4% 3%;
+padding: 10% 2% 4% 3%;
 
 }
 
@@ -295,19 +295,19 @@ padding: 4% 2% 4% 3%;
     padding: 10px 49.5% 8px 3px;
     border: none;
     outline: none;
-    margin-bottom: 3%;
-    margin-top: 2%;
+    margin-top: 7%;
 
 }
 .Subscribe{
     border-radius: 8px;
-    padding: 10px 70% 8px 4px;
+    padding: 10px 73% 8px 4px;
     border: none;
     outline: none;
     background-color: var(--span-orange);
     color: #FFF;
     font-size: 17px;
     text-align: center;
+    margin-top: 7%;
 }
 .Subscribe > span{
 padding: 1px;   
