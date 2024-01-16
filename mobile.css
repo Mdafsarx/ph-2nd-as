@@ -65,13 +65,54 @@ main {
 /* grid section end */
 
 
+  /* why choose us section */
+
+  .card-container {
+    flex-direction: column;
+}
+
+.center-title {
+    max-width: 100%;
+    margin-left: 0%;
+    margin-bottom: 7%;
+}
+.card {
+    padding: 10%;
+}
 
 
+/* news letter section */
+
+.news-letter-container {
+    flex-direction: column;
+}
+
+.news-letter-content {
+    padding: 5% 10% 5% 5%;
+    max-width: 100%;
+}
+.Subscribe {
+    padding: 10px 78% 8px 4px;
+}
+
+.news-letter-img {
+    max-width: 95%;
+    margin-top: 6%;
+
+}
+.news-letter-img img {
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+}
 
 
-
-
-
-
-
-
+.travel {
+    max-width: 55%;
+    bottom: 11.5%;
+    left: 45%;
+    transform: rotate(-45deg) translateX(49px) translateY(33px);
+}
+h3 {
+    font-size: 15px;
+}
