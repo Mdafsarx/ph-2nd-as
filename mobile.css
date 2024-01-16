@@ -14,11 +14,60 @@
     
 }
 .banner-text {
- padding-left: 15px;
+ padding-left: 20px;
+ padding-right: 40px;
     color: #FFF;
+    text-align: center;
 }
 .banner-explore-your-travel {
 background-position: center;
 }
+.banner-explore-your-travel {
+    max-width: 90%;
+    margin: 0px auto;
+}
 
 /* end  */
+
+/* tours section responsive */
+
+main {
+    max-width: calc(100% - 13%);
+    margin: 0px auto;
+}
+
+.tours {
+    flex-direction: column;
+}
+
+.tours img {
+    width: 100%;
+    object-fit: cover;
+}
+.tours-content{
+    padding-left: 6%;
+    margin-bottom: 4%;
+}
+
+
+
+/* grid section */
+
+.grid-img{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
