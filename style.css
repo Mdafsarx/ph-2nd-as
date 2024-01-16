@@ -184,7 +184,7 @@ border-radius: 3%;
     padding-bottom: 6%;
 }
 .tours-button{
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 /* tours section end */
@@ -315,6 +315,68 @@ padding: 10% 2% 4% 3%;
 padding: 1px;   
  margin-left: 170%;
 }
+
+
+
+
+/* discount img section */
+
+
+.discount-background1{
+background-image: url("./Images/Group 39.png");
+height: 65vh;
+/* width: 80vw; */
+width: 100%;
+background-repeat: no-repeat;
+object-fit: cover;
+background-size: contain;
+}
+
+.discount-background2{
+    background-image: url("./Images/Group 40.png");
+    height: 65vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: contain;}
+
+    .discount-background3{
+    background-image: url("./Images/Group 39.png");
+    height: 65vh;
+    /* width: 80vw; */
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: contain;
+}
+
+
+.discount-card{
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.80);
+backdrop-filter: blur(2.5px);
+max-width: 45%;
+padding: 4%;
+line-height: 1.9em;
+margin: 40px 40px 0px auto;
+position: relative;
+top: 110px;
+}
+.sell-all-pack-button{
+    
+    margin-top: 2%;
+    max-width: 45%;
+    margin-left: 45%;
+}
+
+.discount-card span{
+    padding-left: 5px;
+}
+
+
+
+
 /* ////// */
 /* news letter img section 2*/
 .news-letter-img{
