@@ -305,36 +305,6 @@ left: 36%;
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* grid-section end */
 .card-container{
     display: flex;
@@ -480,7 +450,7 @@ margin-top: 8%;
 
 }
 .mountain-container img{
-    width: 100%;
+    width: 90%;
     height: 100%;
     object-fit: cover;
 }
