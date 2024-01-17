@@ -99,7 +99,20 @@ left: 38%;}
 
 }
 
+.discount-card {
 
+    max-width: 100%;
+    top: 100px;
+    left: 20px;
+    
+    }
+    .discount-background1,.discount-background2,.discount-background3{
+ 
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
 
 
 /* news letter section */
@@ -109,12 +122,16 @@ left: 38%;}
 }
 
 .news-letter-content {
-    padding: 5% 10% 5% 10%;
+    padding:5%;
     max-width: 100%;
 }
 .Subscribe {
-    padding: 10px 76% 8px 4px;
+    padding: 10px 73.4% 8px 4px;
+    font-size: normal;
 }
+.input-name > input[type="text"], input[type="email"] {
+    padding: 10px 45% 8px 3px;
+}    
 
 .news-letter-img {
     max-width: 95%;
@@ -132,9 +149,10 @@ left: 38%;}
 }
 
 .travel {
+    padding: 11px;
     max-width: 55%;
-    bottom: 11.5%;
-    left: 47%;
+    bottom: 11.9%;
+    left: 44%;
     transform: rotate(-45deg) translateX(49px) translateY(33px);
 }
 h3 {
@@ -254,16 +272,4 @@ ul {
     right: 100px;
     display: none;
 }
-.discount-background1,.discount-background2,.discount-background3{
- 
-    background-size: cover;
-    background-position: center;
-}
 
-.discount-card {
-
-max-width: 100%;
-top: 100px;
-left: 20px;
-
-}
